@@ -1,11 +1,9 @@
-# Split It Easy
-Going on a road trip?.  Worried about all the maths you gotta do to find out "who owes whom and how much" after the trip?. Well, worry not!. Add all your expenses to this app and let it do the calculations for you.
+# BILL SPLIT KARO
+Going on a trip with friends? Worried about all the maths you have to do find out "who owes whom and how much" after the trip?. Well, worry not!. Add all your expenses to this app and let it do the calculations for you.
 
 ## Features:
 - Offline app
-- No user login and registration required
 - Uses a O(n) algorithm to settle debts
-- Built in Java for Android Platform
 
 ## Android concepts used:
 - Recycler views
@@ -16,7 +14,7 @@ Going on a road trip?.  Worried about all the maths you gotta do to find out "wh
 
 ## Database Design:
 We use three simple entities:
-<img src="https://github.com/nishant-boro/split-it-easy-android/blob/master/db_view.png" width="800">
+<img src="https://github.com/Yash1201/Bill-Split/blob/master/db_view.png" width="800">
 
 Hence, if a group is deleted/updated the associated bills and members of the group are deleted/updated too. 
 Also, if a member is deleted/updated the associated bills of the member are deleted/updated too.
